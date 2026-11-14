@@ -37,7 +37,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Construir proyecto Angular
-        run: npx ng build --configuration production --base-href /jugueteria-mundo-magico/
+        run: npx ng build --configuration production --base-href /jugueteria/
 
       - name: Subir archivos
         uses: actions/upload-pages-artifact@v3
