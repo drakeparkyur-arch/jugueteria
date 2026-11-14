@@ -1,0 +1,111 @@
+<!-- Carrusel de Bootstrap (Components > Carousel > With captions + indicators) -->
+<div id="carruselHome" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+    <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+    <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+    <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="3" aria-label="Imagen 4"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/slide1.png" class="d-block w-100" alt="Juguetes">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Juguetes que inspiran</h2>
+        <p>Para jugar, aprender y soñar.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide2.png" class="d-block w-100" alt="Bloques">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Bloques y construcción</h2>
+        <p>Crea castillos, autos y ciudades.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide3.png" class="d-block w-100" alt="Peluches">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Peluches suaves</h2>
+        <p>Compañeros para cada noche.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide4.png" class="d-block w-100" alt="Regalos">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Regalos para cada edad</h2>
+        <p>Ideas para cumpleaños y fiestas.</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carruselHome" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carruselHome" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+<!-- Bienvenida -->
+<div class="container text-center my-5">
+  <h1 class="text-danger">Bienvenido a Mundo Mágico</h1>
+  <p class="lead">Juguetes seguros y divertidos para niños de todas las edades.</p>
+  <a routerLink="/product" class="btn btn-danger btn-lg me-2">Ver juguetes</a>
+  <a routerLink="/contact" class="btn btn-outline-danger btn-lg">Hacer un pedido</a>
+</div>
+
+<!-- Cifras -->
+<div class="bg-light py-4">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <p class="display-5 text-danger mb-0">12+</p>
+        <p>años de diversión</p>
+      </div>
+      <div class="col-md-4">
+        <p class="display-5 text-danger mb-0">1 500</p>
+        <p>juguetes</p>
+      </div>
+      <div class="col-md-4">
+        <p class="display-5 text-danger mb-0">0-12</p>
+        <p>años de edad</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tarjetas (Components > Card) -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">¿Por qué elegirnos?</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card h-100 text-center shadow-sm">
+        <div class="card-body">
+          <p class="display-4">🛡️</p>
+          <h5 class="card-title">Juguetes seguros</h5>
+          <p class="card-text">Materiales de buena calidad y probados.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 text-center shadow-sm">
+        <div class="card-body">
+          <p class="display-4">🎁</p>
+          <h5 class="card-title">Envoltura de regalo</h5>
+          <p class="card-text">Entregamos tu regalo listo para sorprender.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 text-center shadow-sm">
+        <div class="card-body">
+          <p class="display-4">🏷️</p>
+          <h5 class="card-title">Ofertas todo el año</h5>
+          <p class="card-text">Promociones en fechas especiales.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
